@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Thanh bar màu đỏ ở trên -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#BC2626">
+
+        <ImageButton
+            android:id="@+id/btnVietnam"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/vi_1"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <ImageButton
+            android:id="@+id/btnUK"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/en_1"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+    </RelativeLayout>
+
+    <!-- Nội dung chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="207px"
+            android:layout_height="207px"
+            android:layout_marginLeft="14px"
+            android:layout_marginTop="0px"
+            android:src="@drawable/image_1"
+            android:scaleType="fitCenter"
+            android:alpha="1" />
+
+        <Button
+            android:id="@+id/roundedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="Đăng nhập với S-link ID"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/loginWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Hoặc đăng nhập với"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onLoginWithClick" />
+
+        <ImageView
+            android:id="@+id/fingersprint"
+            android:layout_width="207px"
+            android:layout_height="207px"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/thumb_1"
+            android:scaleType="fitCenter"
+            android:alpha="1" />
+
+    </LinearLayout>
+
+    <!-- Thanh bar màu đỏ ở dưới -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#BC2626"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/copyrightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Copyright © 2024 Học viện Công nghệ Bưu chính Viễn thông\nVersion: BCVT-2024.V1"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</LinearLayout>

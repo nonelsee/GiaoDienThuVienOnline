@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Giao Dien Thu Vien Online</string>
+    <string name="home">Trang Chủ</string>
+    <string name="searching">Tìm Kiếm</string>
+    <string name="saved">Đã Lưu</string>
+    <string name="information">Cá nhân</string>
+</resources>
