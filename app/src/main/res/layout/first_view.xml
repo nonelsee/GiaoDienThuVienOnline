@@ -53,15 +53,13 @@
             android:alpha="1" />
 
         <Button
-            android:id="@+id/roundedButton"
-            android:layout_width="match_parent"
+            android:id="@+id/login_button"
+            android:layout_width="250"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/rounded_button"
-            android:text="Đăng nhập với S-link ID"
-            android:textColor="#FFFFFF" />
+            android:text="Đăng nhập"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/primary"
+            android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/loginWith"

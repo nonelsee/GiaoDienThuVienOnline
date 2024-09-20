@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.GiaoDienThuVienOnline" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">#BC2626</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">#D9D9D9</item>
+        <item name="colorOnPrimary">#BC2626</item>
 
         <item name="colorSecondary">#D9D9D9</item>
         <item name="colorOnSecondary">#051A53</item>
